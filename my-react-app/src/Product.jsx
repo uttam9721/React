@@ -1,16 +1,12 @@
-import './App.css';
+import "./Product.css";
 
-function Product ({title,price,features}){
-    
-    let isDiscount = price>3000?"Discount of 5%":"";
-    let styles={backgroundColor:"yellow"};
+
+function Product({title,price,features}){
 
     return(
         <div className="Product">
-            <h3>{title}</h3>
-            <h5>Price {price}:</h5>
-            <p>{isDiscount}</p>
-            
+            <p>Product</p>
+
         </div>
     )
 }

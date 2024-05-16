@@ -1,15 +1,13 @@
-import Product from './Product'
-import MsgBox from './MsgBox';
+import Form from './Form';
 import './App.css'
 
-function App(props) {
+function App() {
   
 
   return(
     <>
-    <h1>Main Component</h1>
-    <MsgBox userName="uttam" textColor="black"/> 
-    <MsgBox userName="maurya" textColor="blue"/> 
+   <Form/>
+  
     </>
   )
 
